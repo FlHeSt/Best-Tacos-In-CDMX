@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Orientation from "./components/Orientation";
-import GreenDivs from "./components/green divs";import Filter from "./components/Filter";
+import GreenDivs from "./components/green divs";
+import Filter from "./components/Filter";
 import BlueDivs from "./components/Blue divs";
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <button>this is a button</button>
       <Filter />
       <BlueDivs />
+      <GreenDivs />
       <Footer />
     </div>
   );
