@@ -9,6 +9,8 @@ export default function App() {
       <h1>Hello World</h1>
       <Orientation />
       <p>This is a paragraph</p>
+      <p>This is another paragraph</p>
+      <button>this is a button</button>
       <Footer />
     </div>
   );
