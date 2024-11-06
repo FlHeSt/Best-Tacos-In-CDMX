@@ -10,6 +10,7 @@ export default function App() {
       <Orientation />
       <p>This is a paragraph</p>
       <p>This is another paragraph</p>
+      <button>this is a button</button>
       <Footer />
     </div>
   );
