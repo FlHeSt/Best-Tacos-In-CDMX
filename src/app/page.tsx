@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Orientation from "./components/Orientation";
+import Filter from "./components/Filter";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <p>This is a paragraph</p>
       <p>This is another paragraph</p>
       <button>this is a button</button>
+      <Filter />
       <Footer />
     </div>
   );
